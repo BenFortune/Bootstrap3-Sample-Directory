@@ -1,3 +1,9 @@
+/* Removed excess padding and add negative margin to keep navbar elements in alignment with content on right side */
+@media (min-width: 768px) {
+	.container .navbar-form.navbar-right{padding-right:0;margin-right: -15px;}
+}
+
+/* Remove excess side padding and margin to keep nav bar links in alignment with content in smaller views */
 @media (max-width: 767px) {
 	.container .navbar-toggle{margin-right:0;}
 	.container .navbar-brand{padding-left:0;}
