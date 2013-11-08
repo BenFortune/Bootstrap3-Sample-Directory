@@ -1,0 +1,4 @@
+@media (max-width: 767px) {
+	.container .navbar-toggle{margin-right:0;}
+	.container .navbar-brand{padding-left:0;}
+}

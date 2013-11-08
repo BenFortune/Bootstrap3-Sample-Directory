@@ -6,26 +6,81 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Bootstrap 3 Sample Page</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/bootstrap.min.css" />
         <link rel="stylesheet" href="styles/style.css" />
-
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     </head>
     <body>
+    	<nav class="navbar navbar-default" role="navigation">
+    		<!-- DELETE THE FOLLOWING CONTAINER, ROW AND COL-*-12 AND THEIR CORRESPONDING CLOSING TAGS IF YOU WANT A FULL WIDTH NAVBAR -->
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    					<div class="navbar-header">
+			    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						      	<span class="sr-only">Toggle navigation</span>
+						      	<span class="icon-bar"></span>
+						      	<span class="icon-bar"></span>
+						      	<span class="icon-bar"></span>
+						  	</button>
+						  	<a href="#" class="navbar-brand">Brand</a> 
+						</div><!-- END NAVBAR HEADER -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						    <ul class="nav navbar-nav">
+						     	<li class="active"><a href="#">Link</a></li>
+						    	<li><a href="#">Link</a></li>
+						    	<li class="dropdown">
+							    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+							        <ul class="dropdown-menu">
+							    		<li><a href="#">Link 1</a></li>
+							    		<li><a href="#">Link 2</a></li>
+							    		<li><a href="#">Link 3</a></li>
+							    		<li class="divider"></li>
+							    		<li><a href="#">Link 4 with separator</a></li>
+							    		<li class="divider"></li>
+							    		<li><a href="#">Link 5</a></li>
+							    	</ul>
+						    	</li>
+						    </ul><!-- END NAVBAR -->
+						    <form class="navbar-form navbar-left" role="search">
+						    	<div class="form-group">
+						    		<input type="text" class="form-control" placeholder="Search">
+						    	</div>
+						    	<button type="submit" class="btn btn-default">Submit</button>
+						    </form><!-- END NAVBAR FORM -->
+						    <ul class="nav navbar-nav navbar-right">
+						    	<li><a href="#">Link</a></li>
+						    	<li class="dropdown">
+							    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+							    	<ul class="dropdown-menu">
+							        	<li><a href="#">Link 1</a></li>
+							        	<li><a href="#">Link 2</a></li>
+							        	<li><a href="#">Link 3</a></li>
+							         	<li class="divider"></li>
+							          	<li><a href="#">Link 4 with separater</a></li>
+							        </ul>
+						    	</li>
+						   	</ul><!-- END NAVBAR NAVBAR RIGHT -->
+						</div><!-- END NAVBAR-COLLAPSE -->
+					</div><!-- END WRAPPING COL MD 12 -->
+				</div> <!-- END ROW -->
+    		</div><!-- END CONTAINER -->
+    	</nav><!-- END NAVIGATION -->
         <div class="container">
         	<div class="row">
-        		<div class="col-md-12">
-        			<h1>Bootstrap Template</h1>
+        		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        			<h1>Bootstrap 3 Template</h1>
         			<h2>Subheader here. Content below</h2>
         			<p>Dreamcatcher authentic fixie, swag deep v forage Cosby sweater.  8-bit literally keytar YOLO skateboard.  Bicycle rights selvage seitan before they sold out raw denim fashion axe Pitchfork.  Fingerstache raw denim food truck 8-bit, PBR&amp;B quinoa farm-to-table Terry Richardson mustache Pinterest Williamsburg polaroid disrupt retro cardigan.  Brunch cliche XOXO, synth gentrify butcher fashion axe scenester kale chips kitsch paleo gastropub pug.  Banh mi beard PBR&amp;B, viral Carles dreamcatcher single-origin coffee paleo hoodie mlkshk roof party Banksy direct trade  deep v.  Ethnic art party Godard squid Pinterest American Apparel, you probably haven't heard of them before they sold out Echo Park wayfarers.</p>
 
 					<p>Mumblecore sartorial put a bird on it, freegan Truffaut squid photo booth chia DIY lomo irony fingerstache next level.  You probably haven't heard of them +1 VHS beard Intelligentsia Williamsburg, synth bitters sustainable salvia art party narwhal pour-over Terry Richardson pickled.  Truffaut church-key Shoreditch, quinoa Banksy distillery +1 tousled art party polaroid readymade mustache.  Paleo viral authentic, blog aesthetic fixie meggings yr you probably haven't heard of them Marfa selvage Carles bitters.  Cosby sweater you probably haven't heard of them mixtape, DIY authentic ennui biodiesel literally squid before they sold out.  Slow-carb vegan banh mi, meh organic XOXO shabby chic 90's blog authentic hashtag seitan.  Etsy next level bicycle rights Marfa, synth +1 art party fanny pack tattooed shabby chic slow-carb craft beer salvia.</p>
-        		</div>
+        		</div><!-- END COL MD 12 -->
         	</div><!-- END ROW -->
         </div><!-- END CONTAINER -->
+
+        <!-- JS FILES HERE :: Local copy of jquery 1.10.1 in JS directory for offline use -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>
